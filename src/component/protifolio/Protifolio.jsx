@@ -2,8 +2,8 @@ import "./Protifolio.scss";
 
 export default function Protifolio() {
     return (
-        <div className="Protifolio">
-            
+        <div className="Protifolio" id="protifol">
+       
         </div>
     )
 }
