@@ -1,8 +1,8 @@
 import "./TopBar.scss";
 
-export default function TopBar() {
+export default function TopBar({ menuOpen, setMenuOpen }) {
     return (
-        <div className="TopBar">
+        <div className={"TopBar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
 
@@ -17,7 +17,7 @@ export default function TopBar() {
           </div>
 
           <div className="itemContainer">
-         <img src="https://www.creativefabrica.com/wp-content/uploads/2019/04/Mail-icon-by-ahlangraphic-55-580x386.jpg" alt="" className="icon"/>
+         <img src="https://icons-for-free.com/iconfiles/png/512/mail+icon-1320183704725127707.png" alt="" className="icon"/>
 
          <span>mohammadkabbara40@gmail.com</span>
           </div>
@@ -25,6 +25,13 @@ export default function TopBar() {
 
         
                 <div className="right">
+                    <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+
+
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
 
                    
                 </div>

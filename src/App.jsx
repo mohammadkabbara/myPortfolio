@@ -4,19 +4,25 @@ import Protifolio from "./component/protifolio/Protifolio";
 import Testimoinals from "./component/testimoinals/Testimoinals";
 import Work from "./component/work/Work";
 import Intro from "./component/intro/Intro";
+import Menu from "./component/menu/Menu";
+
+
 import "./app.scss";
+import { useState } from "react";
 
 
 
 function App() {
+  const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
+        <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 
-      <TopBar/>
+     
       <div className="section">
-
-        <Contact/>
         <Intro/>
+        <Contact/>
         <Protifolio/>
         <Testimoinals/>
         <Work/>
