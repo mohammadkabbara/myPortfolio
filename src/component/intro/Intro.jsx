@@ -16,11 +16,10 @@ export default function Intro() {
 
                     <h2>Hi There ,I'am </h2>
                     <h1>Mohammmad Kabbara</h1>
-                    <h3>Full Stack Developer</h3>
+                    <h3>Full Stack <span>Developer</span></h3>
                 </div>
-                <a href="#Protifolio">
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qN_BAWaQYaMHiOeI2Ns_0oxwuoCgYNbb54-8DW87OLCatBoKyuetu266tieSqpscJBI&usqp=CAU"/>
+                <a href="#protifol">
+                <i className="arrow" class="fas fa-chevron-circle-down fa-3x "></i>
                 </a>
             </div>
           
