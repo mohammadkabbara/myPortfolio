@@ -20,6 +20,34 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
          <img src="https://icons-for-free.com/iconfiles/png/512/mail+icon-1320183704725127707.png" alt="" className="icon"/>
 
          <span>mohammadkabbara40@gmail.com</span>
+         <ul>
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#Intro">Home</a>
+                </li>
+
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#contact">Contact</a>
+                </li>
+
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#protifol">Protifolio</a>
+                </li>
+
+
+                {/* <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#Testimoinals">Testimoinals</a>
+                </li>
+
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#work">Works</a>
+                </li> */}
+
+
+            </ul>
           </div>
                 </div>
 
