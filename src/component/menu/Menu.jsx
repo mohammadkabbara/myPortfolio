@@ -20,14 +20,14 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                 </li>
 
 
-                <li onClick={()=>setMenuOpen(false)}>
+                {/* <li onClick={()=>setMenuOpen(false)}>
                     <a href="#Testimoinals">Testimoinals</a>
                 </li>
 
 
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#work">Works</a>
-                </li>
+                </li> */}
 
 
             </ul>
