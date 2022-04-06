@@ -1,0 +1,40 @@
+.Technology{
+    background: linear-gradient(to left, #af92bb, #050505);
+    // background: linear-gradient(to left, #e3d5e9, #1f1d1c);
+    .techIntro p{
+        margin-left: 25%;
+        padding: 20px;
+        color:rgb(255, 255, 255);
+        font-size:50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .techIntro img{
+     
+        width: 7%;
+        margin-top: 5%;
+        margin-left:2%;
+        padding:0.8%;
+        cursor: pointer;
+        border-radius:50%;
+        transition: transform .2s;
+       
+        opacity: 0.8;
+
+    }
+    .lastChild{
+
+        margin-left: 23%;
+        width: 95%;
+    
+    }
+    
+    
+    .techIntro img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+     
+        
+
+    }
+
+}
