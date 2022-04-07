@@ -22,8 +22,9 @@ function App() {
      
       <div className="section">
         <Intro/>
-        <Contact/>
         <Technology/>
+        <Contact/>
+        
         {/* <Protifolio/>
         <Technology/>
         <Work/> */}
