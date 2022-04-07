@@ -1,18 +1,41 @@
 .Technology{
-    background: linear-gradient(to left, #af92bb, #050505);
+    background: linear-gradient(to left, #31353f, #8b8888);
     // background: linear-gradient(to left, #e3d5e9, #1f1d1c);
-    .techIntro p{
-        margin-left: 25%;
+    p{
+        position: relative;
+        bottom: 300px;
+        margin-left: 30%;
         padding: 20px;
-        color:rgb(255, 255, 255);
+        color: #bcaaaa;
+        // color:rgb(255, 255, 255);
         font-size:50px;
-        font-family: 'Roboto', sans-serif;
+        font-family:'Mincho';
+        margin-top: 3%;
+    }
+    .techIntro{
+        position: absolute;
+        /* margin-bottom: 30px; */
+        top: 1020px;
+        // background: linear-gradient(to left, #173584, #d16a6a);
+        // background-color: #d5ded5;
+        // border: 10px solid ;
+        // border-color: #af92bb #d5ded5 #af92bb #d5ded5;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+        // margin-top: 2%;
+      padding-bottom: 2.5%;
+    //   border-radius: 2%;
+    //   box-shadow: 20px 20px 50px 20px rgb(105, 98, 98) inset;
+
     }
     .techIntro img{
-     
+     position: relative;
         width: 7%;
         margin-top: 5%;
-        margin-left:2%;
+    
+        margin-left:2.2%;
         padding:0.8%;
         cursor: pointer;
         border-radius:50%;
