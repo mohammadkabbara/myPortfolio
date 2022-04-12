@@ -3,6 +3,7 @@ import Contact from "./component/contact/Contact";
 import Protifolio from "./component/protifolio/Protifolio";
 import Technology from "./component/Technology/Technology";
 import Work from "./component/work/Work";
+import ProductList from "./component/productList/ProductList";
 import Intro from "./component/intro/Intro";
 import Menu from "./component/menu/Menu";
 
@@ -23,9 +24,11 @@ function App() {
       <div className="section">
         <Intro/>
         <Technology/>
+        <ProductList />
         <Contact/>
+        {/* <Protifolio/> */}
         
-        {/* <Protifolio/>
+        {/* 
         <Technology/>
         <Work/> */}
 
