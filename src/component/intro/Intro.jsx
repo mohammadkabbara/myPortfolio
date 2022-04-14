@@ -41,7 +41,7 @@ export default function Intro() {
             </div>
           
         </div>
-        <a href="#protifol">
+        <a href="#Technology">
                 <i className="arrow" class="fas fa-chevron-circle-down fa-3x "></i>
                 </a>
         </div>

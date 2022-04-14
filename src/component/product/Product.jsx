@@ -1,6 +1,7 @@
 import "./product.css";
-
-const Product = ({img,link}) => {
+import data from "../../data";
+// import img from "../../img";
+const Product = ({img,link,des}) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -10,6 +11,7 @@ const Product = ({img,link}) => {
       </div>
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img" />
+        <p>{des}</p>
       </a>
     </div>
   );
