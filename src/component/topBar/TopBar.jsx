@@ -6,34 +6,43 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
 
-                <a href="#Intro" className="logo">
-            genius.
-          </a>       
+                    <div className="logo">
 
-          <div className="itemContainer">
+                    <img src="./assest/Logo.png"/>  
+                    </div>
+
+                  
+
+          {/* <div className="itemContainer">
          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png" alt="" className="icon" />
 
          <span>00962785902342</span>
-          </div>
+          </div> */}
 
           <div className="itemContainer">
-         <img src="https://icons-for-free.com/iconfiles/png/512/mail+icon-1320183704725127707.png" alt="" className="icon"/>
+         {/* <img src="https://icons-for-free.com/iconfiles/png/512/mail+icon-1320183704725127707.png" alt="" className="icon"/>
 
-         <span>mohammadkabbara40@gmail.com</span>
+         <span>mohammadkabbara40@gmail.com</span> */}
          <ul>
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#Intro">Home</a>
+                <a href="#Intro"> Home </a>
                 </li>
 
+                <li onClick={()=>setMenuOpen(false)}>
+                <a href="#Technology"> Technology </a>
+                </li>
+                
 
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
+
+                   
                 </li>
 
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#protifol">Protifolio</a>
+                    <a href="#ProductList">Protifolio</a>
                 </li>
 
 

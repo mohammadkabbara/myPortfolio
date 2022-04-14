@@ -1,22 +1,18 @@
-import Sun from "./img/wallhaven.jpg";
+import adventurers from "./img/adventurers.png";
+import tripo from "./img/tripo.png";
 export const products = [
     {
       id: 1,
-      img :{Sun},
-      link: "http://lama.dev",
-      des:"good place",
+      img :tripo,
+      link: "https://tripo-explorrer.netlify.app/",
+      des:"good morning",
     },
     {
       id: 2,
-      src :{Sun},
-      link: "http://lama.dev",
+      img :adventurers,
+      link: "https://adventurers-team.github.io/JO-Hikers/",
       des:"good place",
     },
-    {
-      id: 3,
-      src :{Sun},
-      link: "http://lama.dev",
-      des:"good place",
-    },
+   
     
   ];
