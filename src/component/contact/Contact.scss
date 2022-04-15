@@ -1,14 +1,27 @@
 .contact{
-    background-color: rgb(222, 225, 226);
-    display: flex;
+    background: linear-gradient(to left, #31353f, #8b8888);
 
-    .left{
-        flex: 1;
-        overflow: hidden;
+    h1{
+        position: absolute;
+        top: 310%;
+        align-items: center;
+        justify-content:center;
+        margin-left: 40%;
+        padding: 20px;
+        color: #bcaaaa;
+       
+        font-size:50px;
+        font-family:'Mincho';
+        
+    }
 
-        img{
-            height: 100%;
-        }
+    // .left{
+    //     flex: 1;
+    //     overflow: hidden;
+
+    //     img{
+    //         height: 100%;
+    //     }
 
     }
     .right{
@@ -17,46 +30,69 @@
         flex-direction:column;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
 
-        h2{
-            font-size: 30px;
-        }
+          
+    }
 
-        form{
-            width: 70%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
+    .imgContainar img{
+        height: 600px;
+        width: 400px;
+        margin-left: 350px;
+        border-radius: 15%;
+        opacity: 0.8;
+        overflow: hidden;
+        position: absolute;
+        top: 320%;
+        transition: transform .7s;
+        cursor: pointer;
+    }
 
-            input{
-                width: 300px;
-                height: 30px;
-                font-size: 14px;
-            }
-
-            textarea{
-                width: 300px;
-                height: 300px;
-                font-size: 14px;
-              
-            }
-
-            button{
-                width: 150px;
-                height: 30px;
-                color:rgb(175, 175, 175);
-                background-color: crimson;
-                border:none;
-                border-radius: 10px;
-                font-weight: 500;
-                cursor: pointer;
-            }
-            span{
-                color:rgb(0, 59, 0)
-            }
-        }
+    .imgContainar img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+     
+        
 
     }
-}
+    //     h2{
+    //         font-size: 30px;
+    //     }
+
+    //     form{
+    //         width: 70%;
+    //         height: 70%;
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: space-around;
+    //         align-items: center;
+
+    //         input{
+    //             width: 300px;
+    //             height: 30px;
+    //             font-size: 14px;
+    //         }
+
+    //         textarea{
+    //             width: 300px;
+    //             height: 300px;
+    //             font-size: 14px;
+              
+    //         }
+
+    //         button{
+    //             width: 150px;
+    //             height: 30px;
+    //             color:rgb(175, 175, 175);
+    //             background-color: crimson;
+    //             border:none;
+    //             border-radius: 10px;
+    //             font-weight: 500;
+    //             cursor: pointer;
+    //         }
+    //         span{
+    //             color:rgb(0, 59, 0)
+    //         }
+    //     }
+
+    // }
