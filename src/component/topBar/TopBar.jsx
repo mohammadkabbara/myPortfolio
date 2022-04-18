@@ -8,7 +8,10 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
 
                     <div className="logo">
 
-                    <img src="./assest/Logo.png"/>  
+                    <img src="./assest/Vector5.png"/>  
+                    <img src="./assest/Vector6.png"/>  
+                    <img src="./assest/Vector7.png"/>  
+                    <img src="./assest/Vector8.png"/>  
                     </div>
 
                   
